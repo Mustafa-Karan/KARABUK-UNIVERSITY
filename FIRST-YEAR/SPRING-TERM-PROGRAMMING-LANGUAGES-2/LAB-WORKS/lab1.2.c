@@ -1,7 +1,8 @@
 #include <stdio.h>
 int bodyIndex(float,float);
 int main(){
-	float weight,height,result;
+	float weight,height;
+	int result;
 	printf("**** WELCOME TO BODY INDEX CALCULATOR ****\n");
 	printf("ENTER YOUR WEIGHT:");
 	scanf("%f",&weight);
