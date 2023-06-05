@@ -64,7 +64,7 @@ void create(){
 				fclose(file2);
 				menu();	
 			break;
-			default: printf("INVALID CHOÝCE\n"); create(); break;
+			default: printf("INVALID CHOICE\n"); create(); break;
 		}
 	}
 	else{
@@ -249,6 +249,7 @@ void deletespecific(){
     fclose(file2);
     fclose(tmp);
 	remove("file1.txt");
+	file1=tmp;
     rename("tempdata.txt","file1.txt");
 	menu();
 }
