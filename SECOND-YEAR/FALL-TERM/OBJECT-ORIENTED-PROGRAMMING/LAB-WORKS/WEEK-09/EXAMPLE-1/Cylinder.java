@@ -1,19 +1,19 @@
 public class Cylinder extends circle {
     private double height;
    public Cylinder() {
-       super(); // Üst sınıfın parametresiz kurucu metodunu çağır
+       super();
        this.height = 1.0;
    }
     public Cylinder(double height) {
-        super(); // Üst sınıfın parametresiz kurucu metodunu çağır
+        super();
         this.height = height;
     }
     public Cylinder(double height, double radius) {
-        super(radius); // Üst sınıfın tek parametreli kurucu metodunu çağır
+        super(radius);
         this.height = height;
     }
     public Cylinder(double height, double radius, String color) {
-        super(radius, color); // Üst sınıfın iki parametreli kurucu metodunu çağır
+        super(radius, color);
         this.height = height;
     }
     public double getHeight(){
