@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.InputMismatchException;
 public class main {
-    public static void main(String[] args){//2 3 6
+    public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         Boolean b= true;
         double radius,height,width;
