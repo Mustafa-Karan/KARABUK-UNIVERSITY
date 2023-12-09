@@ -7,10 +7,6 @@ public class Pyramid extends Shape3D {
         return ((double) 1 /3)*height*width*depth;
     }
     public double getArea(){
-        /*double x = height * Math.sqrt(Math.pow((width / 2), 2) + (height * height));
-        double y = width * Math.sqrt(Math.pow((height / 2), 2) + (height * height));
-        return height * width + x + y;*/
-        //1. üçgenin h ı
         double h1=Math.sqrt(Math.pow(((double)depth/2),2)+height*height);
         double h2=Math.sqrt(Math.pow(((double)width/2),2)+height*height);
         double rectangle1=h1*width/2;
