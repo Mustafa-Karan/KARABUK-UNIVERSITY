@@ -19,11 +19,6 @@ public class Movie{
     public int getYear() {
         return Year;
     }
-
-    /*@Override
-    public int compareTo(Movie m) {
-        return Year - m.Year;
-    }*/
     public String toString(){
         return "NAME:"+getName()+'\n'+"YEAR:"+getYear()+'\n'+"RATING:"+getRating();
     }
